@@ -1,0 +1,203 @@
+Oct 11 23:22:47.222 - [INFO] use build-in openssl lib
+Oct 11 23:22:47.224 - [INFO] start XX-Net 3.6.7
+Oct 11 23:22:47.225 - [DEBUG] start confirm_xxnet_exit
+Oct 11 23:22:47.229 - [DEBUG] <0>: try to terminate xxnet:8087
+Oct 11 23:22:49.243 - [DEBUG] good, xxnet:8087 cleared!
+Oct 11 23:22:49.257 - [DEBUG] <0>: try to terminate xxnet:8085
+Oct 11 23:22:51.271 - [DEBUG] good, xxnet:8085 clear!
+Oct 11 23:22:51.273 - [DEBUG] finished confirm_xxnet_exit
+Oct 11 23:22:51.646 - [INFO] SSL use version:TLSv1_2
+Oct 11 23:22:51.882 - [DEBUG] network is ok, cost:444 ms
+Oct 11 23:22:51.967 - [INFO] OpenSSL support alpn
+Oct 11 23:22:51.970 - [INFO] load ip range file:C:\Users\15256\Desktop\XX-Net-3.6.1\code\3.6.7\gae_proxy\local\ip_range.txt
+Oct 11 23:22:51.998 - [INFO] detected Win10, enable connect concurrency control, interval:40
+Oct 11 23:22:51.999 - [INFO] Use google ip range.
+Oct 11 23:22:51.999 - [INFO] load google ip_list num:0, gws num:0
+Oct 11 23:22:52.003 - [INFO] OpenSSL support alpn
+Oct 11 23:22:52.007 - [WARNING] no enough ip
+Oct 11 23:22:52.013 - [DEBUG] ## GAEProxy set keep_running: True
+Oct 11 23:22:52.013 - [INFO] ------------------------------------------------------
+Oct 11 23:22:52.014 - [INFO] Python Version     : 2.7.13
+Oct 11 23:22:52.014 - [INFO] OS                 : Version:10-0; Build:15063; Platform:2; CSD:; ServicePack:0-0; Suite:768; ProductType:0
+Oct 11 23:22:52.014 - [INFO] Listen Address     : 127.0.0.1:8087
+Oct 11 23:22:52.014 - [INFO] GAE APPID          :
+Oct 11 23:22:52.014 - [INFO] Pac Server         : http://127.0.0.1:8086/proxy.pac
+Oct 11 23:22:52.014 - [INFO] ------------------------------------------------------
+Oct 11 23:22:52.017 - [INFO] server 127.0.0.1:8087 started.
+Oct 11 23:22:52.018 - [INFO] server 127.0.0.1:8086 started.
+Oct 11 23:22:52.112 - [INFO] module gae_proxy started
+Oct 11 23:22:52.115 - [INFO] start gae_proxy time cost:802 ms
+WARNING:root:Load Crypto.Cipher.ARC4 Failed, Use Pure Python Instead.
+Oct 11 23:22:52.193 - [INFO] SSL use version:TLSv1_2
+Oct 11 23:22:52.198 - [INFO] load ip range file:C:\Users\15256\Desktop\XX-Net-3.6.1\code\3.6.7\x_tunnel\local\cloudflare_front\ip_range.txt
+Oct 11 23:22:52.222 - [INFO] load google ip_list num:3000, gws num:3000
+Oct 11 23:22:52.229 - [INFO] Adjust scan thread num from 1 to 0
+Oct 11 23:22:52.234 - [INFO] use config_path:C:\Users\15256\Desktop\XX-Net-3.6.1\data\x_tunnel\client.json
+Oct 11 23:22:52.235 - [INFO] X-Tunnel window:33554432
+Oct 11 23:22:52.236 - [INFO] server 127.0.0.1:1080 started.
+Oct 11 23:22:52.255 - [INFO] Socks5 server listen:127.0.0.1:1080.
+Oct 11 23:22:52.266 - [DEBUG] GAE GET https://clients2.google.com/service/update2/crx?os=win&arch=x64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=61.0.3163.100&lang=zh-CN&acceptformat=crx2,crx3&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D0.0.0.0%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dpkedcjkdefgpdelpbcmbmeomcjbeemfm%26v%3D0.0.0.0%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dpadekgcemlokbadohgkifijomclgjgif%26v%3D2.4.6%26uc%26ping%3Dr%253D-1%2526e%253D1
+Oct 11 23:22:52.307 - [DEBUG] network is ok, cost:134 ms
+Oct 11 23:22:52.334 - [INFO] module x_tunnel started
+Oct 11 23:22:52.335 - [INFO] start x_tunnel time cost:217 ms
+Oct 11 23:22:52.336 - [INFO] begin to start web control
+Oct 11 23:22:52.339 - [INFO] server 127.0.0.1:8085 started.
+Oct 11 23:22:52.339 - [INFO] launcher web control started.
+Oct 11 23:22:52.386 - [INFO] generate desktop shortcut
+Oct 11 23:22:52.508 - [WARNING] no enough ip
+Oct 11 23:22:52.618 - [DEBUG] launcher web_control 127.0.0.1:7660 GET /config?cmd=get_config
+Oct 11 23:22:52.630 - [DEBUG] launcher web_control 127.0.0.1:7661 GET /config?cmd=get_config
+Oct 11 23:22:52.632 - [DEBUG] CONNECT GET https://www.twitter.com/xxnet
+Oct 11 23:22:52.646 - [DEBUG] GET http://www.twitter.com/xxnet
+Oct 11 23:22:52.710 - [DEBUG] GET http://www.twitter.com/xxnet
+Oct 11 23:22:52.714 - [DEBUG] GET http://www.twitter.com/xxnet
+Oct 11 23:22:53.009 - [WARNING] no enough ip
+Oct 11 23:22:53.492 - [INFO] get uuid:d39bcd44-b185-4139-a95c-b40dc28107c9
+Oct 11 23:22:53.496 - [INFO] GAE CONNECT xxnet-update.appspot.com:443
+Oct 11 23:22:53.506 - [DEBUG] GAE CONNECT Direct GET https://xxnet-update.appspot.com/update.json?uuid=d39bcd44-b185-4139-a95c-b40dc28107c9&version=3.6.7&platform=Windows-10-10.0.15063
+Oct 11 23:22:53.511 - [WARNING] no enough ip
+Oct 11 23:22:54.013 - [WARNING] no enough ip
+Oct 11 23:22:54.515 - [WARNING] no enough ip
+Oct 11 23:22:55.018 - [WARNING] no enough ip
+Oct 11 23:22:55.154 - [DEBUG] GAE POST https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome
+Oct 11 23:22:55.520 - [WARNING] no enough ip
+Oct 11 23:22:56.022 - [WARNING] no enough ip
+Oct 11 23:22:56.523 - [WARNING] no enough ip
+Oct 11 23:22:57.489 - [DEBUG] GAE POST https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome
+Oct 11 23:23:29.446 - [DEBUG] GAE GET https://translate.googleapis.com/translate_static/js/element/main_zh-CN.js
+Oct 11 23:23:37.446 - [DEBUG] launcher web_control 127.0.0.1:7660 GET /config?cmd=get_config
+Oct 11 23:23:52.028 - [DEBUG] create ssl timeout fail.
+Oct 11 23:23:52.032 - [WARNING] no enough ip
+Oct 11 23:23:52.535 - [WARNING] no enough ip
+Oct 11 23:23:53.037 - [WARNING] no enough ip
+Oct 11 23:23:53.522 - [DEBUG] create ssl timeout fail.
+Oct 11 23:23:53.525 - [WARNING] check_update fail:HTTPError()
+Oct 11 23:23:53.527 - [INFO] download https://raw.githubusercontent.com/XX-net/XX-Net/master/code/default/update_version.txt to C:\Users\15256\Desktop\XX-Net-3.6.1\data\downloads\version.txt, retry:0
+Oct 11 23:23:53.549 - [WARNING] no enough ip
+Oct 11 23:23:54.052 - [WARNING] no enough ip
+Oct 11 23:23:54.554 - [WARNING] no enough ip
+Oct 11 23:23:55.057 - [WARNING] no enough ip
+Oct 11 23:23:55.558 - [WARNING] no enough ip
+Oct 11 23:23:56.060 - [WARNING] no enough ip
+Oct 11 23:23:56.563 - [WARNING] no enough ip
+Oct 11 23:24:19.937 - [DEBUG] GAE GET https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+Oct 11 23:24:21.940 - [DEBUG] GAE GET https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=clients1.google.com%2Ftbproxy&oit=3&cp=27&pgcl=7&gs_rn=42&psi=ws179D-eXryQ6ZqI&sugkey=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+Oct 11 23:24:23.284 - [DEBUG] GAE GET http://clients1.google.com/tbproxy
+Oct 11 23:24:25.632 - [DEBUG] GAE GET https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=clients1.google.com%2Ftbproxy&oit=3&pgcl=4&gs_rn=42&psi=ws179D-eXryQ6ZqI&sugkey=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+Oct 11 23:24:52.053 - [DEBUG] create ssl timeout fail.
+Oct 11 23:24:52.061 - [WARNING] no enough ip
+Oct 11 23:24:52.562 - [WARNING] no enough ip
+Oct 11 23:24:53.063 - [WARNING] no enough ip
+Oct 11 23:24:53.565 - [WARNING] no enough ip
+Oct 11 23:24:54.067 - [WARNING] no enough ip
+Oct 11 23:24:54.568 - [WARNING] no enough ip
+Oct 11 23:24:55.070 - [WARNING] no enough ip
+Oct 11 23:24:55.572 - [WARNING] no enough ip
+Oct 11 23:24:56.075 - [WARNING] no enough ip
+Oct 11 23:24:56.577 - [WARNING] no enough ip
+Oct 11 23:25:52.074 - [DEBUG] create ssl timeout fail.
+Oct 11 23:25:52.078 - [WARNING] no enough ip
+Oct 11 23:25:52.579 - [WARNING] no enough ip
+Oct 11 23:25:53.082 - [WARNING] no enough ip
+Oct 11 23:25:53.584 - [WARNING] no enough ip
+Oct 11 23:25:54.086 - [WARNING] no enough ip
+Oct 11 23:25:54.588 - [WARNING] no enough ip
+Oct 11 23:25:55.090 - [WARNING] no enough ip
+Oct 11 23:25:55.592 - [WARNING] no enough ip
+Oct 11 23:25:56.095 - [WARNING] no enough ip
+Oct 11 23:25:56.597 - [WARNING] no enough ip
+Oct 11 23:26:21.443 - [DEBUG] GAE POST https://www.google-analytics.com/collect
+Oct 11 23:26:21.513 - [DEBUG] GAE POST https://google.com/domainreliability/upload
+Oct 11 23:26:31.300 - [DEBUG] GAE POST https://www.google-analytics.com/collect
+Oct 11 23:26:48.995 - [DEBUG] GAE POST https://www.google-analytics.com/collect
+Oct 11 23:26:52.090 - [DEBUG] create ssl timeout fail.
+Oct 11 23:26:52.096 - [WARNING] no enough ip
+Oct 11 23:26:52.598 - [WARNING] no enough ip
+Oct 11 23:26:53.101 - [WARNING] no enough ip
+Oct 11 23:26:53.603 - [WARNING] no enough ip
+Oct 11 23:26:54.104 - [WARNING] no enough ip
+Oct 11 23:26:54.607 - [WARNING] no enough ip
+Oct 11 23:26:55.109 - [WARNING] no enough ip
+Oct 11 23:26:55.611 - [WARNING] no enough ip
+Oct 11 23:26:56.112 - [WARNING] no enough ip
+Oct 11 23:26:56.615 - [WARNING] no enough ip
+Oct 11 23:27:30.804 - [DEBUG] GAE POST https://www.google-analytics.com/collect
+Oct 11 23:27:36.290 - [DEBUG] GAE POST https://www.google-analytics.com/collect
+Oct 11 23:27:36.307 - [DEBUG] GAE POST https://www.google-analytics.com/collect
+Oct 11 23:27:52.110 - [DEBUG] create ssl timeout fail.
+Oct 11 23:27:52.116 - [WARNING] no enough ip
+Oct 11 23:27:52.618 - [WARNING] no enough ip
+Oct 11 23:27:53.120 - [WARNING] no enough ip
+Oct 11 23:27:53.622 - [WARNING] no enough ip
+Oct 11 23:27:54.124 - [WARNING] no enough ip
+Oct 11 23:27:54.626 - [WARNING] no enough ip
+Oct 11 23:27:55.129 - [WARNING] no enough ip
+Oct 11 23:27:55.631 - [WARNING] no enough ip
+Oct 11 23:27:56.133 - [WARNING] no enough ip
+Oct 11 23:27:56.636 - [WARNING] no enough ip
+Oct 11 23:28:11.431 - [DEBUG] launcher web_control 127.0.0.1:7660 GET /config?cmd=get_config
+Oct 11 23:28:12.452 - [DEBUG] GAEProxy Web_control 127.0.0.1:7660 GET /deploy?cmd=get_log
+Oct 11 23:28:17.887 - [DEBUG] launcher web_control 127.0.0.1:7661 GET /config?cmd=get_config
+Oct 11 23:28:17.899 - [DEBUG] GAEProxy web_control 127.0.0.1:7661 POST /config?cmd=get_config
+Oct 11 23:28:17.901 - [DEBUG] GAEProxy Web_control 127.0.0.1:7661 GET /scan_ip?cmd=get_range
+Oct 11 23:28:17.903 - [INFO] load ip range file:C:\Users\15256\Desktop\XX-Net-3.6.1\code\3.6.7\gae_proxy\local\ip_range.txt
+Oct 11 23:28:18.809 - [DEBUG] launcher web_control 127.0.0.1:7661 GET /config?cmd=get_config
+Oct 11 23:28:52.136 - [DEBUG] create ssl timeout fail.
+Oct 11 23:28:52.141 - [WARNING] no enough ip
+Oct 11 23:28:52.644 - [WARNING] no enough ip
+Oct 11 23:28:53.146 - [WARNING] no enough ip
+Oct 11 23:28:53.649 - [WARNING] no enough ip
+Oct 11 23:28:54.151 - [WARNING] no enough ip
+Oct 11 23:28:54.654 - [WARNING] no enough ip
+Oct 11 23:28:55.156 - [WARNING] no enough ip
+Oct 11 23:28:55.657 - [WARNING] no enough ip
+Oct 11 23:28:56.160 - [WARNING] no enough ip
+Oct 11 23:28:56.662 - [WARNING] no enough ip
+Oct 11 23:29:03.395 - [DEBUG] GAE GET https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+Oct 11 23:29:05.151 - [DEBUG] GAE GET https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=create+ssl+timeout+fail&oit=4&cp=23&pgcl=7&gs_rn=42&psi=8hl1Svz2iH8QWFP-&sugkey=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+Oct 11 23:29:06.680 - [DEBUG] GAE GET https://www.google.com/search?q=create+ssl+timeout+fail&oq=create+ssl+timeout+fail&aqs=chrome..69i57.1535j0j7&sourceid=chrome&ie=UTF-8
+Oct 11 23:29:52.156 - [DEBUG] create ssl timeout fail.
+Oct 11 23:29:52.161 - [WARNING] no enough ip
+Oct 11 23:29:52.661 - [WARNING] no enough ip
+Oct 11 23:29:53.163 - [WARNING] no enough ip
+Oct 11 23:29:53.666 - [WARNING] no enough ip
+Oct 11 23:29:54.166 - [WARNING] no enough ip
+Oct 11 23:29:54.668 - [WARNING] no enough ip
+Oct 11 23:29:55.170 - [WARNING] no enough ip
+Oct 11 23:29:55.672 - [WARNING] no enough ip
+Oct 11 23:29:56.173 - [WARNING] no enough ip
+Oct 11 23:29:56.674 - [WARNING] no enough ip
+Oct 11 23:30:52.175 - [DEBUG] create ssl timeout fail.
+Oct 11 23:30:52.179 - [WARNING] no enough ip
+Oct 11 23:30:52.682 - [WARNING] no enough ip
+Oct 11 23:30:53.183 - [WARNING] no enough ip
+Oct 11 23:30:53.685 - [WARNING] no enough ip
+Oct 11 23:30:54.187 - [WARNING] no enough ip
+Oct 11 23:30:54.688 - [WARNING] no enough ip
+Oct 11 23:30:55.190 - [WARNING] no enough ip
+Oct 11 23:30:55.692 - [WARNING] no enough ip
+Oct 11 23:30:56.194 - [WARNING] no enough ip
+Oct 11 23:30:56.696 - [WARNING] no enough ip
+Oct 11 23:31:52.195 - [DEBUG] create ssl timeout fail.
+Oct 11 23:31:52.199 - [WARNING] no enough ip
+Oct 11 23:31:52.701 - [WARNING] no enough ip
+Oct 11 23:31:53.204 - [WARNING] no enough ip
+Oct 11 23:31:53.705 - [WARNING] no enough ip
+Oct 11 23:31:54.208 - [WARNING] no enough ip
+Oct 11 23:31:54.710 - [WARNING] no enough ip
+Oct 11 23:31:55.212 - [WARNING] no enough ip
+Oct 11 23:31:55.715 - [WARNING] no enough ip
+Oct 11 23:31:56.217 - [WARNING] no enough ip
+Oct 11 23:31:56.719 - [WARNING] no enough ip
+Oct 11 23:32:52.017 - [INFO] PAC from:127.0.0.1:9539 GET /proxy.pac
+Oct 11 23:32:52.215 - [DEBUG] create ssl timeout fail.
+Oct 11 23:32:52.221 - [WARNING] no enough ip
+Oct 11 23:32:52.724 - [WARNING] no enough ip
+Oct 11 23:32:53.226 - [WARNING] no enough ip
+Oct 11 23:32:53.727 - [WARNING] no enough ip
+Oct 11 23:32:54.229 - [WARNING] no enough ip
+Oct 11 23:32:54.730 - [WARNING] no enough ip
+Oct 11 23:32:55.232 - [WARNING] no enough ip
+Oct 11 23:32:55.734 - [WARNING] no enough ip
+Oct 11 23:32:56.236 - [WARNING] no enough ip
+Oct 11 23:32:56.738 - [WARNING] no enough ip
